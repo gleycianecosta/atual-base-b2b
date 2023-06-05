@@ -1,0 +1,7 @@
+.menuContainer--sobrenos{
+    display: flex;
+    justify-content: center;
+}
+.styledLink{
+    font-size: 40px;
+}

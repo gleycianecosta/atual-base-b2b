@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "children": [
+      "image#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "blockClass":"deals1desktop",
+    "src": "assets/images/informativos.svg",
+      "maxHeight": "40px"
+    }
+  }
+}
+
+

@@ -1,0 +1,39 @@
+{
+  "store.custom#politica-de-privacidade-e-cookies": {
+    "blocks": [
+      "flex-layout.row#politicadeprivacidade"
+    ]
+  },
+
+  "flex-layout.row#politicadeprivacidade": {
+    "children": [
+      "flex-layout.col#text-politicadeprivacidade"
+    ]
+  },
+
+  "flex-layout.col#text-politicadeprivacidade": {
+    "children": [
+      "rich-text#title-politicadeprivacidade",
+      "rich-text#politicadeprivacidade"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-politicadeprivacidade": {
+    "props": {
+      "text":
+      "# Política de Privacidade e Cookies",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#politicadeprivacidade": {
+    "props": {
+      "text": "Em sintonia com as diretrizes da Lei Geral de Proteção de Dados Pessoais (LGPD ou LGPDP), Lei nº 13.709/2018, que é a legislação brasileira que regula as atividades de tratamento de dados pessoais, informamos que nenhuma informações nesta loja virtual será recolhida sem o seu consentimento, e quando colhidas serão restritamente destinados aos processos necessários de envio de descontos, newsletter, suporte via SAC, cadastro e compra. Temos total compromisso com a privacidade e segurança da sua navegação. Qualquer informação fornecida durante sua navegação ou compra nesta loja virtual não será vendida, trocada ou divulgada, com exceção dos casos dessas informações serem necessárias para o processo de entrega e cobrança do seu pedido. Ao acessar esse site e enviar comunicações ou fornecer qualquer tipo de dado pessoal, você entende os termos aqui previstos e aceita esta política de privacidade, consentindo com o tratamento de suas informações, conforme aqui descrito ou nos termos da legislação em vigor. Ao navegar em nosso site, entrar em contato conosco, preencher algum cadastro/formulário, o cliente/usuário aceita de forma consciente compartilhar tais dados e informações. Ao utilizar nosso site para compras, o cliente aceita também todas as políticas e regras do nosso site, a saber:\n **1 - Como são coletadas minhas informações?** \n 1.1 - Newsletter e Fale Conosco \n 1.1.1 - Coletamos informações quando você se cadastra para receber newsletters ou através do formulário de SAC – Serviço de Atendimento ao Consumidor.\n 1.2 - Processo de Compra e Entrega \n  1.2.1 - No processo de compra, vamos solicitar dados como por exemplo nome completo, CPF, endereço completo, e-mail, telefone fixo e/ou celular, data de nascimento e gênero com objetivo de concluir o seu pedido. Tais informações são fundamentais para os processos de validação de cadastro, entrega do seu pedido e do pagamento. 1.2.2 - Para o processamento do pagamento de seu pedido, se você fornecer as suas informações de cartão de crédito, elas serão criptografadas usando a tecnologia Secure Socket Layer (SSL) e transferidas para a operadora de cartão com criptografia AES-256. Embora nenhum método de transmissão pela Internet ou armazenamento eletrônico seja 100% seguro, nós seguimos todos os requisitos da PCI-DSS e implementamos medidas adicionais aceitas pelos padrões da indústria. 1.2.3 - Não armazenaremos informações de pagamento tais como de Cartões de Crédito. As informações de pagamento são utilizadas exclusivamente por empresas terceirizas para gerar boletos bancários ou processar transações por cartão de crédito. 1.2.4 - A obtenção das informações de como essas empresas terceirizas de processamento de pagamento lidam com seus dados pessoais, você deverá acessar a política de privacidade e proteção de dados nos canais de atendimento dessas empresas. 1.2.5 - Para o processo de entrega, dados como endereço e nome, serão fornecidos à transportadora para que o seu pedido chegue com segurança em sua casa, no local correto.**2 – Segurança e privacidade** \n 2.1 - Temos o compromisso de respeitar sua privacidade e garantir o sigilo de todas as informações que você nos fornece. Todos os dados cadastrados em nossa loja virtual são utilizados apenas se necessário para a viabilização de processos de entrega, cobrança e mantê-lo atualizado acerca de seu pedido ou informes de promoções. 2.2 - Toda navegação pela loja virtual utiliza de criptografia por certificado Secure Socket Layer (SSL). \n  **3 - Suas informações** \n  3.1 – Ao utilizar a loja virtual, seu endereço de IP (Internet Protocol) é armazenado juntamente com a DATA e HORÁRIO, com único propósito de manter um LOG utilizado para fins de segurança, caso necessário. Esses registros de log expiram de 3 a 6 meses. 3.2 - No cadastro de clientes, solicitamos informações como: nome, CPF, data de nascimento, endereço, e-mail e telefones para contato, para facilitar suas compras no site e assegurar que elas cheguem até você. O seu e-mail é utilizado para informar dados de suas compras e, quando solicitado por você, para comunicar promoções oferecidas. \n**4 - Coleta de Informações por outros sites, sistemas e redes sociais.** \nEsse site utiliza serviços de terceiros, a saber: \n 1) Google Analytics:\n Utilizado para colher dados de desempenho e estatísticas de acesso ao nosso site. Para mais informações sobre o Google Analytics, consulte os Termos de Serviço do Google Analytics, os princípios de segurança e privacidade do Google Analytics e a Política de Privacidade do Google. Não nos responsabilizamos pela política de privacidade ou conteúdo presente neste serviço.  \n **2) Outros:** \n Um serviço de Chat para atendimento ao Cliente poderá estar ativo no momento de sua navegação, e o propósito deste serviço é na prestação de suporte aos nossos clientes; Plugins de redes sociais, como Instagram e Facebook poderão estar ativos no momento da sua navegação e o propósito destes Plugins é exibir na loja virtual informações de postagens, curtidas e comentários em nossas redes sociais. Não nos responsabilizamos pelas políticas de privacidade desses serviços externos. Os termos de responsabilidade sobre a privacidade do usuário e a política de cookies deverão ser verificadas junto às empresas prestadoras destes serviços externos.\n **5 - Menores de Idade**\n Não coletamos, processamos ou utilizamos em nossa loja virtual nenhuma informação relacionada a um indivíduo que saibamos ter menos de 18 anos de idade sem a autorização prévia e confirmada de seu representante legal. Tal representante legal tem o direito, mediante solicitação, de acessar as informações fornecidas pela criança ou adolescente e/ou requerer que sejam deletadas.\n **6 - Política de Cookies**\n 6.1 - Os cookies são pequenos arquivos de dados transferidos de um site da web para o disco do seu computador e não é utilizado por nós para armazenar dados sensíveis, somente como identificação da sua navegação. 6.2 - Usamos os cookies, para melhorar a sua experiência em nosso site. Todos esses dados usados são guardados com privacidade e segurança no âmbito de experiência de navegação e compra, esses dados são utilizados para diversas funções inteiras que auxiliam o tratamento e relacionamento com nossos clientes, por exemplo: • Comunicação por e-mail, para envio de descontos e informativos de carrinho abandonado. • Personalizar o conteúdo visualizado na loja virtual. Com os esses dados, conseguimos identificar seus conteúdos favoritos e assim personalizar e melhorar sua navegação em nosso site, sugerir produtos que seja do seu interesse. • Em caso de login em sua conta na loja virtual, um cookie será responsável por identifica-lo ao retornar em nossa loja virtual, exibindo seu nome para você.\n **7 - Corrigir, Alterar ou Excluir quaisquer informações pessoais** \n  Se você gostaria de acessar, corrigir, alterar ou excluir quaisquer informações pessoais que temos sobre você, entre com o seu login e altere as informações.",
+      "blockClass": "about"
+    }
+  }
+}

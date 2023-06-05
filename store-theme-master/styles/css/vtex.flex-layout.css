@@ -1,0 +1,169 @@
+.flexRowContent--menu-link-top,
+.flexRowContent--main-header {
+  padding: 0 0.5rem;
+}
+.flexRowContent{
+  display: flex;
+  align-items: center;
+}
+.flexRow--footerP1{
+  background: #7EB4C1;
+}
+.flexRow--footer-info-mobile{
+  background: #7EB4C1;
+}
+.flexCol--payment-methods-footer{
+  display: flex;
+  align-items: center;
+}
+.flexRowContent--infos-atendimento{
+  width: 350px;
+}
+.flexRowContent--footer-info-mobile{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.flexRowContent--minicart-icon-box:hover{
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+@media screen and (min-width: 40em) {
+  .flexRowContent--menu-link-top,
+  .flexRowContent--main-header {
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .flexRowContent--menu-link-top,
+  .flexRowContent--main-header {
+    padding: 0 0.25rem;
+  }
+}
+.flexRowContent--minicart-icon-box{
+  display: flex;
+  align-items: center;
+}
+.flexRowContent--menu-link-top {
+  background-color: #7EB4C1 ;
+  color: #fff ;
+}
+
+.flexRowContent--main-header {
+  background-color: #f0f0f0;
+}
+
+.flexRowContent--main-header-mobile {
+  align-items: center;
+  padding: 0.625rem 0.5rem;
+  background-color: #f0f0f0;
+}
+.flexRowContent--footerP2{
+  width: 300px;
+}
+.flexRow--footerP2{
+  display: flex;
+}
+.flexRowContent---top :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+.flexRow--infos-atendimento{
+  width: 350px;
+}
+.flexRow--pages-footer{
+  margin-left: 115px;
+}
+.flexRowContent--footerP1{
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  padding: 10px;
+  padding-bottom: 20px;
+  gap: 10px;
+}
+.flexRowContent--contact{
+  font-weight: bold ;
+  display: flex ;
+  color: #7EB4C1 ;
+  padding-top: 16px  ;
+}
+.flexRow--informativo-mobile{
+  display: none;
+}
+
+.flexRowContent--formas-de-pagamento{
+  display: flex;
+  flex-direction: column;
+}
+.flex-layout-0-x-flexCol---footer{
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 640px){
+  .flexColChild--payment-methods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexRow--informativo-mobile{
+    display: block;
+  }
+  .flexCol--payment-methods-footer{
+    display: block;
+   
+  }
+  .flexRowContent--deals{
+    display: none;
+  }
+}
+
+
+.flexRow--deals .flexCol {
+  align-items: center;
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+.flexCol--filterCol {
+  max-width: 500px;
+  min-width: 230px;
+}
+
+.flexCol--productCountCol {
+  align-items: flex-start;
+}
+
+.flexCol--orderByCol {
+  align-items: flex-end;
+}
+
+.flexCol--orderByMobileCol {
+  width: 42%;
+}
+
+.flexCol--filterMobileCol {
+  width: 38%;
+}
+
+.flexRow--quickviewMainRow {
+  display: flex;
+  max-height: 100%;
+}
+
+.flexColChild--quickviewDetails:first-child {
+  overflow-y: auto;
+  height: 66% !important;
+  overflow-x: hidden;
+}
+
+.flexColChild--quickviewDetails:last-child {
+  height: 34% !important;
+}
+
+.flexRow--addToCartRow {
+  padding-bottom: 1rem;
+}

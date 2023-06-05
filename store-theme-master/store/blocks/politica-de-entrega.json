@@ -1,0 +1,39 @@
+{
+  "store.custom#politica-de-entrega": {
+    "blocks": [
+      "flex-layout.row#politica-de-entrega"
+    ]
+  },
+
+  "flex-layout.row#politica-de-entrega": {
+    "children": [
+      "flex-layout.col#text-politica-de-entrega"
+    ]
+  },
+
+  "flex-layout.col#text-politica-de-entrega": {
+    "children": [
+      "rich-text#title-politica-de-entrega",
+      "rich-text#politica-de-entrega"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-politica-de-entrega": {
+    "props": {
+      "text":
+      "# Política de entrega",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#politica-de-entrega": {
+    "props": {
+      "text": "O prazo de entrega começa a contar a partir da confirmação de pagamento e a postagem é feita em até 03 dias úteis. Nossas entregas são feitas pelos correios ou transportadoras.\n Por se tratar de um serviço terceirizado, nós não nos responsabilizamos por eventuais atrasos nas entregas, mas estaremos monitorando todo o processo de logística. As entregas são feitas de segunda a sexta em horário comercial. \n Caso houver alguma irregularidade no pedido como produto avariado, faltando, trocado e etc, recuse o pedido e entre em contato com o sac. Em caso de ausência do comprador no endereço cadastrado, a entrega será reagendada e o mesmo será obrigado estar pagando novamente o frete dos produtos. Também fica a critério da Loja, aprovar ou não as áreas de risco como: ( roubo de carga ou veículo) Em algumas cidades de difícil acesso o cliente poderá ter que retirar os produtos em um ponto acessível ao de veículo de entrega por se tratar de um serviço terceirizado não nos responsabilizamos por eventuais atrasos.",
+      "blockClass": "about"
+    }
+  }
+}

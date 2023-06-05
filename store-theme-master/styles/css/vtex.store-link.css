@@ -1,0 +1,67 @@
+.link--text-header{ 
+    color: inherit; 
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    color: #7EB4C1;
+    font-family: 'Nunito';
+    padding-top: 16px;
+}
+
+:global(.vtex-menu-2-x-styledLink){
+    font-size: 18px;
+    color: #09090A;
+    font-weight: 600;
+    font-family: 'Nunito';
+}
+:global(.vtex-menu-2-x-styledLink):hover{
+    color: #7EB4C1;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer){
+    margin: 0px 10px;
+    padding: 5px;
+    font-family: 'Nunito';
+}
+.link--text-negrito{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito';
+    color: #3f3f40;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+  }
+.link--text-h1-footer{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 18px;
+    font-family: 'Nunito';
+    color: #3f3f40;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 800;
+}
+.link--cadastrese{
+    background-image: url("assets/images/cadastrese.svg");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1250px !important;
+    height: 184px;
+}
+@media screen and (max-width: 640px) {
+    .link--text-negrito{
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        font-family: 'Nunito';
+        color: #3f3f40;
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: 800;
+    }
+}

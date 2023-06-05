@@ -1,0 +1,30 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footerLayout{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerLayout--footer-mobile{
+  display: flex;
+  flex-direction: column;
+}
+.flexRow--redes-organizacoes{
+  display: flex;
+  align-items: flex-end;
+}
+.poweredByImage--vtex{
+  margin-left: 10px;
+  width: 100px;
+ 
+}

@@ -1,0 +1,23 @@
+{
+  "store.custom#sobre-nos": {
+    "path": "/sobre-nos"
+  },
+  "store.custom#formas-de-pagamento": {
+    "path": "/formas-de-pagamento"
+  },
+  "store.custom#politica-de-privacidade-e-cookies": {
+    "path": "/politica-de-privacidade-e-cookies"
+  },
+  "store.custom#politica-de-trocas-e-devolucoes":{
+    "path": "/politica-de-trocas-e-devolucoes"
+  },
+  "store.custom#politica-de-entrega":{
+    "path": "/politica-de-entrega"
+  },
+  "store.custom#formdesconto": {
+      "path": "/cadastre-se-para-obter-desconto"
+    }
+  
+    
+  }
+

@@ -1,0 +1,44 @@
+:global(.vtex-minicart-2-x-minicartIconContainer) {
+    background: url("assets/images/shopping_cart.svg") no-repeat ;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito';
+
+}
+:global(.vtex-minicart-2-x-cartIcon) {
+    display: none;
+    font-family: 'Nunito';
+    padding: 0;
+}
+:global(.vtex-button__label)  {
+    padding: 0;
+    font-family: 'Nunito';
+}
+:global(.vtex-minicart-2-x-openIconContainer) {
+    padding: 0;
+}
+
+:global(.vtex-minicart-2-x-minicartQuantityBadge) {
+    left: 24px;
+    top: -13px;
+}
+
+.openIconContainer--minicart-desktop{
+    padding-top: 13px;
+    padding-right: 3px;
+}
+
+.minicartCheckoutButton--minicart-checkout :global(.vtex-button) {
+    background-color: #95C1BB;
+    border: none;
+}
+
+@media screen and (max-width: 640px){
+    .minicartContainer{
+        padding-top: 15px;
+    }
+}

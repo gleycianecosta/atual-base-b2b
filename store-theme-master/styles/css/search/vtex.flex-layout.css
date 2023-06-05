@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Nunito:wght@600;700;800&display=swap');
+.flexRow--orderByAndSwitcher {
+  padding-right: 1.5em;
+}
+.flexRowContent--main-header-menu{
+  background-color: #F0F0F0;
+}
+.flexRow--ssl-vtex-iseller{
+  width: 250px !important;
+}
+.flexRowContent--savingsSummaryListDesktop {
+  justify-content: flex-start;
+}
+.flexRow--footer-1{
+  display: flex;
+  justify-content: center;
+  background: #7EB4C1;
+  padding: 10px;
+  padding-bottom: 20px;
+  gap: 50px;
+}
+.stretchChildrenWidth{
+  display: flex;
+  flex-direction: column;
+}
+.flexCol--summaryRightListDesktop {
+  justify-content: space-around;
+}
+.flexRow--home-categorias2{
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+}
+.flexRow--cadastrese{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (max-width:640px) {
+  .flexRow--cadastrese{
+    display: none;
+  }
+  .flexRow--cadastrese-mobile{
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width:640px) {
+  .flexRow--cadastrese-mobile{
+    display: none;
+  }
+}
+.flexRowContent--home-categorias2{
+  gap: 30px;
+}
+.flexRow--payment-methods{
+  display: flex;
+ 
+}
+.flexRow--logo-footer{
+  display: flex;
+  justify-content: space-between;
+}
+.flexRow--buyNowButton :global(.vtex-button) {
+  background: #eef3f7;
+  border-color:#eef3f7;
+  color: #95C1BB;
+  font-family: 'Nunito';
+}
+
+.flexRow--buyNowButton:hover :global(.vtex-button) {
+  background: #dbe9fd;
+  border-color:#dbe9fd;
+  font-family: 'Nunito';
+}
+
+.flexCol--productRating {
+ height: 20px;
+}
+
+.flexCol--summaryDetailsListMobile {
+  justify-content: space-between;
+}
+
+.flexCol--summaryUpDetailsListMobile {
+  margin-bottom: 0.25rem
+}

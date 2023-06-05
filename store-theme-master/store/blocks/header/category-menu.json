@@ -1,0 +1,702 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-departamentos",
+      "menu-item#category-equipamentos-medicos",
+      "menu-item#category-odontologia",
+      "menu-item#category-fisioterapiaefitness",
+      "menu-item#category-home",
+      "menu-item#more"
+    ]
+  },
+  "menu-item#category-equipamentos-medicos": {
+    "props": {
+      "id": "menu-item-equipamentos-medicos",
+      "type": "custom",
+      "iconId": "assets/images/segment.svg",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/equipamentos-medicos",
+        "noFollow": false,
+        "tagTitle": "Equipamentos Médicos",
+        "text": "Equipamentos Médicos"
+      }
+    }
+  },
+
+  "menu-item#category-odontologia": {
+    "props": {
+      "id": "menu-item-odontologia",
+      "type": "custom",
+      "iconId": "assets/images/segment.svg",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/odontologia",
+        "noFollow": false,
+        "tagTitle": "Odontolodia",
+        "text": "Odontologia"
+      }
+    }
+  },
+  "menu-item#category-fisioterapiaefitness": {
+    "props": {
+      "id": "menu-item-fisioterapiaefitness",
+      "type": "custom",
+      "iconId": "assets/images/segment.svg",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/fisioterapia-e-fitness",
+        "noFollow": false,
+        "tagTitle": "Fisioterapia e Fitness",
+        "text": "Fisioterapia e Fitness"
+      }
+    }
+  },
+  "menu-item#category-departamentos": {
+    "props": {
+      "id": "menu-item-departamentos",
+      "type": "custom",
+      "iconId": "assets/images/segment.svg",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Departamentos",
+        "text": "Departamentos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-departamentos"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-departamentos": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-departamentos"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-departamentos": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"submenu-header"
+    },
+    "children": [
+      "flex-layout.row#submenu-hearder"
+      
+    ]
+  },
+  "flex-layout.row#submenu-hearder":{
+    "children":[
+      "menu-item#submenu1", "menu-item#submenu2"
+    ]
+  },
+  "menu-item#submenu1":{
+ "children":[
+      "menu-item#produtos-ortopedicos",
+      "menu-item#cuidados-pessoais",
+      "menu-item#fios-cirurgicos",
+      "menu-item#protecao-profissional",
+      "menu-item#curativos",
+      "menu-item#equipamentos-medicos",
+      "menu-item#estetica",
+      "menu-item#fisioterapia-e-fitness",
+      "menu-item#ginecologia-e-obstetricia",
+      "menu-item#homecare",
+      "menu-item#instrumental-cirurgico",
+      "menu-item#material-de-consumo"
+ ]
+  },
+  "menu-item#submenu2":{
+    "children":[
+      "menu-item#medicamentos",
+      "menu-item#meias-medicinais",
+      "menu-item#moveis",
+      "menu-item#nutricao",
+      "menu-item#odontologia",
+      "menu-item#oxigenoterapia",
+      "menu-item#produtos-hospitalares",
+      "menu-item#reabilitacao",
+      "menu-item#resgate",
+      "menu-item#vestuario",
+      "menu-item#acessibilidade-e-mobilidade",
+      "menu-item#diabetes"
+    ]
+  },
+  "menu-item#produtos-ortopedicos": {
+    "props": {
+      "id": "menu-item-category-produtos-ortopedicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/produtos-ortopedicos",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "Produtos Ortopédicos"
+      }
+      
+    },
+    
+    "blocks": [
+    ]
+  },
+  "menu-item#cuidados-pessoais": {
+    "props": {
+      "id": "menu-item-category-cuidados-pessoais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/cuidados-pessoais",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "Cuidados Pessoais"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#fios-cirurgicos": {
+    "props": {
+      "id": "menu-item-category-fios-cirurgicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/fios-cirurgicos/fios%20cirugicos?_q=fios%20cirugicos&fuzzy=auto&initialMap=ft&initialQuery=fios%20cirugicos&map=category-2,ft&operator=or",
+        "noFollow": false,
+        "tagTitle": "fios cirúrgicos ",
+        "text": "Fios Cirúrgicos"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#protecao-profissional": {
+    "props": {
+      "id": "menu-item-protecao-profissional",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/protecao-profissional",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "Proteção Profissional"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#diabetes": {
+    "props": {
+      "id": "menu-item-category-diabetes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/diabetes",
+        "noFollow": false,
+        "tagTitle": "Apparel ",
+        "text": "Diabetes"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#vestuario": {
+    "props": {
+      "id": "menu-item-category-vestuario",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/vestuario",
+        "noFollow": false,
+        "text": "Vestuário"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#resgate": {
+    "props": {
+      "id": "menu-item-category-resgate",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/resgate",
+        "noFollow": false,
+        "text": "Resgate"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#odontologia": {
+    "props": {
+      "id": "menu-item-category-odontologia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/odontologia",
+        "noFollow": false,
+        "text": "Odontologia"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#reabilitacao": {
+    "props": {
+      "id": "menu-item-category-reabilitacao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/reabilitacao",
+        "noFollow": false,
+        "text": "Reabilitação"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#produtos-hospitalares": {
+    "props": {
+      "id": "menu-item-category-produtos-hospitalares",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/produtos-hospitalares",
+        "noFollow": false,
+        "text": "Produtos Hospitalares"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#produtos-de-laboratorio": {
+    "props": {
+      "id": "menu-item-category-produtos-de-laboratorio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/produtos-de-laboratorio",
+        "noFollow": false,
+        "text": "Produtos de Laboratório"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#oxigenoterapia": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/oxigenoterapia",
+        "noFollow": false,
+        "text": "Oxigenoterapia"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#acessibilidade-e-mobilidade": {
+    "props": {
+      "id": "menu-item-category-acessibilidade-e-mobilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/acessibilidade-e-mobilidade",
+        "noFollow": false,
+        "text": "Acessibilidade e Mobilidade"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#nutricao": {
+    "props": {
+      "id": "menu-item-category-nutricao",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/nutricao",
+        "noFollow": false,
+        "text": "Nutrição"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#moveis": {
+    "props": {
+      "id": "menu-item-category-moveis",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/moveis",
+        "noFollow": false,
+        "text": "Móveis"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#meias-medicinais": {
+    "props": {
+      "id": "menu-item-category-meias-medicinais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/meias-medicinais",
+        "noFollow": false,
+        "text": "Meias Medicinais"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#medicamentos": {
+    "props": {
+      "id": "menu-item-category-medicamentos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/medicamentos",
+        "noFollow": false,
+        "text": "Medicamentos"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#material-de-consumo": {
+    "props": {
+      "id": "menu-item-category-material-de-consumo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/material-de-consumo",
+        "noFollow": false,
+        "text": "Material de Consumo"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#instrumental-cirurgico": {
+    "props": {
+      "id": "menu-item-category-instrumental-cirurgico",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/instrumental-cirúrgico",
+        "noFollow": false,
+        "text": "Instrumental Cirúrgico"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#homecare": {
+    "props": {
+      "id": "menu-item-category-homecare",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/homecare",
+        "noFollow": false,
+        "text": "Homecare"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#ginecologia-e-obstetricia": {
+    "props": {
+      "id": "menu-item-category-ginecologia-e-obstreticia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/ginecologia-e-obstetricia",
+        "noFollow": false,
+        "text": " Ginecologia e Obstetrícia"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#fisioterapia-e-fitness": {
+    "props": {
+      "id": "menu-item-category-oxigenoterapia",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/fisioterapia-e-fitness",
+        "noFollow": false,
+        "text": "Fisioterapia e Fitness"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#estetica": {
+    "props": {
+      "id": "menu-item-category-estetica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/estetica",
+        "noFollow": false,
+        "text": "Estética"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#esterializacao-e-limpeza": {
+    "props": {
+      "id": "menu-item-category-esterializacao-e-limpeza",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/esterializacao-e-limpeza",
+        "noFollow": false,
+        "text": "Esterialização e Limpeza"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#equipamentos-medicos": {
+    "props": {
+      "id": "menu-item-category-equipamentos-medicos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/equipamentos-medicos",
+        "noFollow": false,
+        "text": "Equipamentos Médicos"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#curativos": {
+    "props": {
+      "id": "menu-item-category-curativos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "https://www.basedeappoio.com.br/curativos",
+        "noFollow": false,
+        "text": "Curativos"
+      }
+    },
+    "blocks": [
+    ]
+  },
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-cadastreseucnpj",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/home---decor/",
+        "noFollow": false,
+        "tagTitle": "cadastreseucnpj",
+        "text": "Cadastre seu CNPJ"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "More",
+        "text": "Nossos contatos"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "width": "100%"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-2",
+      "flex-layout.col#menu-more-1"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "flex-layout.col#menu-more-2": {
+    "children": [
+      "info-card#home"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "sobrenos"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq",
+      "menu-item#whatsapp",
+      "menu-item#lojafisica",
+      "menu-item#email"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "About us",
+        "text": "Sobre nós"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "FAQ",
+        "text": "Perguntas feitas frequentemente"
+      }
+    }
+  },
+  "menu-item#whatsapp": {
+    "props": {
+      "blockClass":"wpp-header",
+      "type": "custom",
+      "iconId": "assets/images/Whatsapp.svg",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Loja física ",
+        "text": "Loja física: 42 3532-4661"
+      }
+    }
+  },
+  "menu-item#lojafisica": {
+    "props": {
+      "blockClass":"wpp-header",
+      "type": "custom",
+      "iconId": "assets/images/Whatsapp.svg",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Whatsapp ",
+        "text": "Whatsapp: 42 98401-7730"
+      }
+    }
+  },
+  "menu-item#email": {
+    "props": {
+      "blockClass":"wpp-header",
+      "type": "custom",
+      "iconId": "assets/images/Whatsapp.svg",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Email ",
+        "text": "E-mail: comercial@basedeappoio.com.br"
+      }
+    }
+  }
+}

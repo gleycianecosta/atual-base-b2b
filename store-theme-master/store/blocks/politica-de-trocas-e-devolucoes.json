@@ -1,0 +1,39 @@
+{
+  "store.custom#politica-de-trocas-e-devolucoes": {
+    "blocks": [
+      "flex-layout.row#politica-de-trocas-e-devolucoes"
+    ]
+  },
+
+  "flex-layout.row#politica-de-trocas-e-devolucoes": {
+    "children": [
+      "flex-layout.col#text-politica-de-trocas-e-devolucoes"
+    ]
+  },
+
+  "flex-layout.col#text-politica-de-trocas-e-devolucoes": {
+    "children": [
+      "rich-text#title-politica-de-trocas-e-devolucoes",
+      "rich-text#politica-de-trocas-e-devolucoes"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-politica-de-trocas-e-devolucoes": {
+    "props": {
+      "text":
+      "# Política de Trocas e Devoluções (mercadoria e valores",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#politica-de-trocas-e-devolucoes": {
+    "props": {
+      "text": "Nosso compromisso é sua total satisfação nas compras realizadas em nosso site. Visando uma parceria de respeito e confiança, criamos a Política de Troca e Devolução, com base no Código de Defesa do Consumidor. A Cirúrgica Base de Appoio fornece produtos das melhores marcas do mercado. Contudo se o cliente necessitar realizar a troca ou devolução do produto, deverá obedecer as orientações a seguir. \n **Como devo proceder em caso de troca ou desistência do pedido?** \n As mercadorias podem ser trocadas ou devolvidas até 7 dias após o recebimento, por motivo de desistência, arrependimento, avaria ou entrega do produto em desacordo com o pedido realizado. Para isso, entre em contato com o Serviço de Relacionamento da Cirúrgica Base de Appoio através do Whatsapp 42-984017730 ou por E-mail: contato@basedeappoio.com.br, e informe o número do pedido e o código do produto a ser trocado, ambos descritos na nota fiscal, ao lado do nome da mercadoria e qual o motivo da solicitação. Importante também enviar uma foto do produto com o possível defeito, número de série, foto da embalagem para que possamos identificar e orientar o fabricante. Ultrapassados os 7 dias, você não terá mais a opção de desistência, e caso precise acionar a garantia, este processo será diretamente com o fabricante ou assistência técnica. Mas não se preocupe, mesmo o contato não sendo direto com a Hospitalar Catarinense, podemos lhe auxiliar no que for necessário. \n **Como receberei o estorno do valor pago do meu pedido?**\n Após o recebimento do item em nossa loja e analisado o processo de devolução, a Cirúrgica Base de Appoio fará o estorno do pagamento. Para pedidos pagos via PIX, o estorno será realizado via PIX na mesma conta corrente de origem do pagamento. O prazo para estorno do valor é de no máximo 3 dias, que será confirmado pelo cliente por e-mail ou whatsapp. Caso o pagamento tenha sido realizado via boleto bancário, o reembolso será feito através de depósito na conta corrente do titular do cadastro em nosso site. Para isso, vamos precisar que nos informe o seu CPF, nome do banco, número da agência e número da conta corrente. Caso o pagamento tenha sido realizado através do cartão de crédito, solicitaremos o estorno à administradora do seu cartão no prazo de 2 (dois) dias úteis. Esse estorno poderá ocorrer em até duas faturas subsequentes, devido à data de fechamento da sua fatura de cartão de crédito. Lembramos que esse é um procedimento da administradora financeira. \n **Qual o prazo para conclusão da devolução ou troca do meu pedido?**\nTemos até 30 (trinta) dias, contados a partir da retirada do produto no endereço em que o pedido foi entregue, para verificar se a solicitação preenche os requisitos da nossa Política de Troca e Devolução. \n**Quem fará a coleta do meu pedido?** \n A coleta do produto poderá ser realizada por transportadora ou pelos correios.",
+      "blockClass": "about"
+    }
+  }
+}

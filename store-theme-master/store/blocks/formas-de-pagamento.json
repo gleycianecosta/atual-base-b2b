@@ -1,0 +1,46 @@
+{
+  "store.custom#formas-de-pagamento": {
+    "blocks": [
+      "flex-layout.row#formas-de-pagamento"
+    ]
+  },
+
+  "flex-layout.row#formas-de-pagamento": {
+    "children": [
+      "flex-layout.col#text-formas-de-pagamento"
+    ]
+  },
+
+  "flex-layout.col#text-formas-de-pagamento": {
+    "children": [
+      "rich-text#title-formas-de-pagamento",
+      "rich-text#formas-de-pagamento",
+      "rich-text#formas-de-pagamento2"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-formas-de-pagamento": {
+    "props": {
+      "text":
+      "# Formas de pagamento",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#formas-de-pagamento": {
+    "props": {
+      "text": "**Como pagar por seus produtos?** \n Nossa loja trabalha com os principais itens de segurança para garantir que seu pagamento seja seguro e evitar fraudes. Para isso, esteja atento na hora de finalizar seu pedido. Ao entrar em seu carrinho de compras e clicar em Finalizar Pedido, você será direcionado para a página de checkout, onde deverá prestar atenção nos seguintes itens: Verifique se o cadeado ao lado do navegador está fechado ou na cor verde. Também devem aparecer as letras HTTPS, indicando que se trata de uma conexão segura. Se isso não acontecer, não siga adiante e entre em contato conosco. Informe seus dados completos e como constam em seus documentos. O nome deve ser igual ao CPF e seu endereço de cobrança igual ao de sua residência. Se você quiser receber o pedido em outro endereço, coloque sua residência como endereço de cobrança e use o endereço de entrega para informar onde deseja receber seu produto. Isso evitará recusa pela operadora do cartão de crédito e pelo controle de pagamentos. Informe seus telefones corretamente. Isso é muito importante se precisarmos entrar em contato com você para verificar qualquer informação. Tenha certeza de que você tem limite de crédito em seu cartão. Essa é a causa mais comum de recusa de uma transação. Lembre-se que mesmo que um pedido seja parcelado, é necessário que você tenha o valor total da compra disponível em seu limite. Outro ponto é que após o pagamento de sua fatura, a operadora pode levar de 2 a 4 dias úteis para reabilitar seu limite. Verifique novamente todos os dados antes de clicar em Concluir. Isso evita erros e atrasos. Caso ocorra algum erro, não se desespere! Não clique mais de uma vez no botão Concluir e aguarde alguns segundos até que a transação seja concluída ou um erro seja informado. Se depois de três ou quatro minutos, ainda não obtiver resposta ou visualize a página de sucesso, tente acessar sua área de cliente e confirmar se o pedido foi colocado e qual seu status. Se ainda assim estiver com problemas, entre em contato conosco. \n ",
+      "blockClass": "about"
+    }
+  },
+  "rich-text#formas-de-pagamento2": {
+    "props": {
+      "text": "\n **Quais são os meios de pagamento aceitos?** \n Essa loja aceita as formas de pagamento listadas abaixo: Cartões de Crédito, Boleto Bancário, Pix Os cartões de crédito são aprovados em pouco tempo, normalmente alguns minutos. No entanto, os pedidos podem passar por uma revisão manual por nossa equipe antes de serem colocados em processamento. O boleto bancário é confirmado apenas no 3 dia útil posterior, caso o pagamento seja feito até às 20:00h. Depois desse horário, o boleto só é confirmado no segundo dia útil posterior ao pagamento.",
+      "blockClass": "about"
+    }
+  }
+}

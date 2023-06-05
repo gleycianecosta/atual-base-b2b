@@ -1,0 +1,281 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop",  "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+   
+    "children": [
+      "flex-layout.row#footerdesktop",
+      "flex-layout.row#footermobile"
+    ]
+  },
+  "flex-layout.row#footerdesktop":{
+    "props":{
+      "blockClass":"footerP1"
+    },
+    "children":[
+      "flex-layout.row#footer-logo-desktop",
+      "flex-layout.row#footer-1-desktop",
+      "flex-layout.row#footer-3-desktop",
+      "flex-layout.row#footer-2-desktop"
+    ]
+  },
+  "flex-layout.row#footermobile":{
+    "props":{
+      "blockClass":"footerP2"
+    },
+    "children":[
+      "flex-layout.row#footer-desktop-2",
+      "flex-layout.row#producao"
+    ]
+  },
+ 
+  "flex-layout.row#footer-logo-desktop":{
+    "props":{
+      "blockClass":"logo-footer"
+    },
+    "children":["image#footer-logo"]
+   
+  },
+  "image#footer-logo":{
+    "props":{
+      "src": "assets/images/footer-logo.svg"
+    }
+  },
+  "flex-layout.row#footer-1-desktop":{
+    "props":{
+      "blockClass":"infos-atendimento"
+    },
+    "children":[
+      "flex-layout.col#infos"
+    ]
+  },
+  "flex-layout.col#infos":{
+    "children":[
+    "rich-text#telefone-contato", 
+    "rich-text#namber",
+    "rich-text#horarios-atendimento",
+    "rich-text#atendimento", 
+    "rich-text#email", 
+    "rich-text#endereco-email",
+    "rich-text#whatsapp", 
+    "rich-text#namber-whatsapp"
+  ]
+  },
+  "rich-text#telefone-contato": {
+    "props": {
+      "blockClass":"infos-negrito",
+      "text": "Telefone para contato"
+    }
+},
+  "rich-text#namber":{
+    "props":{
+      "blockClass":"infos-sub",
+      "text": "42 3532-4661"
+    }
+  },
+  "rich-text#horarios-atendimento": {
+    "props": {
+      "blockClass":"infos-negrito",
+      "text": "Nosso horário de atendimento"
+    }
+},
+ "rich-text#atendimento":{
+  "props":{
+    "blockClass":"infos-sub",
+    "text": "Seg à Sex das 8h às 18h | Sáb das 8:30h às 12h"
+  }
+},
+"rich-text#whatsapp": {
+  "props": {
+    "blockClass":"infos-negrito",
+    "text": "Entre em contato pelo nosso Whatsapp"
+  }
+},
+  "rich-text#namber-whatsapp":{
+    "props":{
+      "blockClass":"infos-sub",
+      "text": "42 98401-7730"
+    }
+  },
+  "rich-text#email": {
+    "props": {
+      "blockClass":"infos-negrito",
+      "text": "Entre em contato atraves do nosso email"
+    }
+},
+  "rich-text#endereco-email":{
+    "props":{
+      "blockClass":"infos-sub",
+      "text": "comercial@basedeappoio.com.br"
+    }
+  },
+  "flex-layout.row#footer-3-desktop":{
+      "props":{
+        "blockClass":"pages-footer"
+      },
+      "children":["flex-layout.col#pagesfooter"]
+    },
+    "flex-layout.col#pagesfooter":{
+      "children":[
+        "link#institucional",
+        "link#sobrenos",
+        "link#privacidade",
+        "link#troca",
+        "link#entrega"
+        
+      ]
+  },
+  "link#institucional": {
+    "props": {
+      "label": "Institucional",
+      "blockClass": "text-h1-footer"
+    }
+  },
+  "link#privacidade": {
+    "props": {
+      "label": "Política de privacidade e cookies",
+      "blockClass": "text-negrito",
+      "href": "/politica-de-privacidade-e-cookies"
+    }
+  },
+  "link#troca": {
+    "props": {
+      "label": "Política de troca e devoluções",
+      "href":"/politica-de-trocas-e-devolucoes",
+      "blockClass": "text-negrito"
+    }
+  },
+  "link#entrega": {
+    "props": {
+      "label": "Polícita de entrega",
+      "href":"/politica-de-entrega",
+      "blockClass": "text-negrito"
+    }
+  },
+  "link#sobrenos": {
+    "props": {
+      "label": "Sobre nós",
+      "href": "/sobre-nos",
+      "blockClass": "text-negrito"
+    }
+  },
+  "flex-layout.row#footer-2-desktop": {
+    "children": ["flex-layout.col#infos-card-redes"],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "flex-layout.col#infos-card-redes":{
+    "props":{
+      "blockClass":"payment-methods-footer"
+    },
+    "children":[ "link#formas-de-pagamento","accepted-payment-methods"]
+  },
+  "link#formas-de-pagamento":{
+    "props":{
+      "label": "Formas de pagamento",
+      "href": "/formas-de-pagamento",
+      "blockClass":"text-h1-footer"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "showInColor":"true",
+      "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
+    }
+  },
+  "flex-layout.row#footer-desktop-2":{
+    "props":{
+      "blockClass":"redes-organizacoes"
+    },
+    "children":[ "social-networks" ]
+  },
+  "social-networks": {
+    "props": {
+      "blockClass":"redes-footer",
+      "showInColor":"true",
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/vtexonline/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/vtextruecloud/"
+        },
+       
+       
+        {
+          "name": "Linkedin",
+          "url": "https://www.linkedin.com/user/VTEXTV"
+        }
+      ]
+    }
+  },
+  "footer-layout.mobile": {
+    "props":{
+      "blockClass": "footer-mobile"
+    },
+    "children": [
+      "flex-layout.row#1-footer-mobile",
+      "flex-layout.row#2-footer-mobile"
+    ]
+  },
+  "flex-layout.row#2-footer-mobile": {
+    "children": ["flex-layout.col#footer-1-mobile","flex-layout.row#producao"],
+    "props": {
+      "blockClass": "payment-methods",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#footer-1-mobile": {
+    "children": [
+      "social-networks" 
+    ]
+    
+  },
+  "flex-layout.row#1-footer-mobile": {
+    "props": {
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "blockClass":"footer-info-mobile"
+    },
+    "children": [  "image#footer-mobile", "flex-layout.row#footer-1-desktop","flex-layout.col#pagesfooter","flex-layout.row#footer-2-desktop"
+  ]
+  },
+  "image#footer-mobile": {
+    "props": {
+      "blockClass":"image-footer-mobile",
+      "src":"assets/images/footer-logo.svg"
+    }
+  },
+  "flex-layout.row#producao":{
+    "props":{
+      "blockClass":"ssl-vtex-iseller"
+    },
+    "children":["image#iseller", "image#ssl", "powered-by"]
+  },
+  "powered-by":{
+    "props":{
+      "blockClass":"vtex",
+      "showInColor":"true"
+    }
+  },
+  "image#iseller": {
+    "props": {
+          "blockClass":"image-footer-prod",
+          "src": "assets/images/iseller.svg",
+          "link":"https://iseller.com.br/"
+        
+        }
+      
+    },
+  "image#ssl":{
+    "props":{
+      "blockClass":"image-footer-prod",
+      "src": "assets/images/ssl.png"
+    }
+  }
+}
